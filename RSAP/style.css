@@ -204,12 +204,12 @@ nav a:hover {
   margin:20px 0 30px;
 }
 
-#feature{
+#features{
   padding:30px;
   color:white;
   font-family: Consolas, monospace;
 }
-#feature h2{
+#features h2{
   font-style:italic;
   font-size:36px;
   margin:0 0 8px;
@@ -260,7 +260,7 @@ nav a:hover {
   font-size:15px;
 }
 
-#doc{
+#docs{
   padding:30px;
   color:white;
   font-family: Consolas, monospace;
