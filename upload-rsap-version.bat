@@ -7,7 +7,7 @@ echo %bn% > rsapver.txt
 copy ..\RSAP\build\main.exe .\RSAP\build\RSAP(build%bn%).exe
 set "file=.\RSAP\downloads.html"
 
-echo ^<a href="https://liyouxi2013.github.io/RSAP/build/RSAP(build%bn%).exe"^>RSAP_Build_%bn%^</a^> > "%file%.tmp"
+echo ^<a href="/RSAP/build/RSAP(build%bn%).exe"^>RSAP_Build_%bn%^</a^> > "%file%.tmp"
 echo ^<br^> >> "%file%.tmp"
 type "%file%" >> "%file%.tmp"
 
